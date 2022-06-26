@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           ),
           debugShowCheckedModeBanner: false,
           onGenerateRoute: UIRoutes.instance.onGenerateRoute,
-          initialRoute: "/sign_in",
+          initialRoute: "/sign_up",
         );
       },
     );
