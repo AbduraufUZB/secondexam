@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:secondexam/screens/auth/forgot_password/view/forgot_pass_view.dart';
 import 'package:secondexam/screens/auth/otp/view/otp_view.dart';
 import 'package:secondexam/screens/auth/reset_pass/view/reset_pass_view.dart';
 import 'package:secondexam/screens/auth/sign_in/view/sign_in_view.dart';
@@ -23,6 +24,8 @@ class UIRoutes {
         return MaterialPageRoute(builder: (ctx) => const OtpView());
       case "/reset_pass":
         return MaterialPageRoute(builder: (ctx) => const ResetPassView());
+       case "/forgot_pass":
+        return MaterialPageRoute(builder: (ctx) => const ForgotPassword());
     }
   }
 }
