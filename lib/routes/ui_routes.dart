@@ -6,6 +6,7 @@ import 'package:secondexam/screens/auth/sign_in/view/sign_in_view.dart';
 import 'package:secondexam/screens/auth/sign_up/view/sign_up_view.dart';
 import 'package:secondexam/screens/splash/view/splash_view.dart';
 import 'package:secondexam/screens/tabbar/explore/view/explore_view.dart';
+import 'package:secondexam/screens/tabbar/home/category/view/category_view.dart';
 import 'package:secondexam/screens/tabbar/home/home_screen/view/home_view.dart';
 
 class UIRoutes {
@@ -32,6 +33,8 @@ class UIRoutes {
         return MaterialPageRoute(builder: (ctx) => ExploreView());
       case "/home":
         return MaterialPageRoute(builder: (ctx) => const HomeView());
+      case "/category":
+        return MaterialPageRoute(builder: (ctx) => CategoryView());
     }
   }
 }
