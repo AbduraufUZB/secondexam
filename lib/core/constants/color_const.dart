@@ -9,4 +9,5 @@ class ColorConst {
   static const Color kRedColor = Color(0XFFFF5454);
   static const Color kPurpleColor = Color(0XFF8418D9);
   static const Color kGreenColor = Color(0XFF389E55);
+  static const Color kDarkRedColor = Color(0XFFAA0023);
 }
