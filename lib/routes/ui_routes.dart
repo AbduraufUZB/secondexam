@@ -5,6 +5,7 @@ import 'package:secondexam/screens/auth/reset_pass/view/reset_pass_view.dart';
 import 'package:secondexam/screens/auth/sign_in/view/sign_in_view.dart';
 import 'package:secondexam/screens/auth/sign_up/view/sign_up_view.dart';
 import 'package:secondexam/screens/splash/view/splash_view.dart';
+import 'package:secondexam/screens/tabbar/explore/view/explore_view.dart';
 
 class UIRoutes {
   static final UIRoutes _instance = UIRoutes._init();
@@ -24,8 +25,10 @@ class UIRoutes {
         return MaterialPageRoute(builder: (ctx) => const OtpView());
       case "/reset_pass":
         return MaterialPageRoute(builder: (ctx) => const ResetPassView());
-       case "/forgot_pass":
+      case "/forgot_pass":
         return MaterialPageRoute(builder: (ctx) => const ForgotPassword());
+      case "/explore":
+        return MaterialPageRoute(builder: (ctx) =>  ExploreView());
     }
   }
 }
