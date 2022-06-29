@@ -8,6 +8,7 @@ import 'package:secondexam/screens/splash/view/splash_view.dart';
 import 'package:secondexam/screens/tabbar/explore/view/explore_view.dart';
 import 'package:secondexam/screens/tabbar/home/category/view/category_view.dart';
 import 'package:secondexam/screens/tabbar/home/coupon/view/coupon_view.dart';
+import 'package:secondexam/screens/tabbar/home/details/detail_view.dart';
 import 'package:secondexam/screens/tabbar/home/home_screen/view/home_view.dart';
 
 class UIRoutes {
@@ -38,6 +39,8 @@ class UIRoutes {
         return MaterialPageRoute(builder: (ctx) => CategoryView());
       case "/coupon":
         return MaterialPageRoute(builder: (ctx) => const Couponview());
+      case "/detail":
+        return MaterialPageRoute(builder: (ctx) => const DetailView());
     }
   }
 }
